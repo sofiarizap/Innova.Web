@@ -277,7 +277,7 @@ span+span {
 }
 
 .image_home {
-    max-width: 65%;
+    max-width: 74%;
     transition: .4s;
     animation: image 2s;
 }
@@ -547,7 +547,10 @@ img.logo-unal {
     height: 19rem;
 }
 
-
+.whatsappmodal{
+    z-index: 100;
+    margin: 10px;
+}
 
 .cards--formacion p:nth-child(1) {
     color: var(--beaver);

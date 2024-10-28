@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="description" content="Portafolio | Innova Web ">
     <meta name="robots" content="index,follow">
 
-    <title>Innova Web | Desarrolladora Web Front-End</title>
+    <title>Innova Web |</title>
 
     <!-- Librerías -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -41,9 +41,9 @@
         <img src="./assets/images/Sin_título-removebg-preview.png" alt="Logo Portafolio" class="logo__header">
 
         <nav class="nav_menu not-active">
-            <a href="#home" class="active">Home</a>
-            <a href="#servicios" data-section="menu" data-value="item2">Servicios</a>
+            <a href="#home" class="active">Inicio</a>
             <a href="#sobre" data-section="menu" data-value="item3">Sobre Nosotros</a>
+            <a href="#servicios" data-section="menu" data-value="item2">Servicios</a>
             <a href="#beneficios" data-section="menu" data-value="item4">Beneficios</a>
             <a href="#proceso" data-section="menu" data-value="item5">Proceso</a>
             <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
@@ -58,6 +58,10 @@
     </header>
 
     <main>
+        <!-- Button modal whatsapp -->
+        <a href="https://api.whatsapp.com/send/?phone=3218773761" target="_blank">
+            <img src="./assets/images/whatsapp.png" alt="CodePen" class="whatsappmodal position-fixed bottom-0 end-0">
+        </a>
         <!-- Home -->
         <section class="home" id="home">
             <picture class="container_image-home" data-aos="zoom-in">
@@ -77,7 +81,7 @@
                 
 
                 <div class="container_button">
-                    <a href="https://drive.google.com/file/d/1vqNvTy7TjiHEr33-bIs6hAqqS5iU5ccJ/view" target="_blank">
+                    <a href="https://api.whatsapp.com/send/?phone=3218773761" target="_blank">
                         <button class="cv_button" data-section="home" data-value="cv_button">Contacto</button>
                     </a>
                 </div>
@@ -85,12 +89,25 @@
 
             <div class="links">
                 
-                <a href="https://codepen.io/mariasmoUN" target="_blank">
-                    <img src="./assets/images/whatsapp.png" alt="whatsapp" class="icon-CodePen">
+                <a href="https://api.whatsapp.com/send/?phone=3218773761"  target="_blank">
+                    <img src="./assets/images/whatsapp2.png" alt="whatsapp" class="icon-CodePen">
                 </a>
-                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                <a href="https://www.instagram.com/innova__web" target="_blank">
                     <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
                 </a>
+            </div>
+        </section>
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobre">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre Nosotros</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <br>
+                    <span class="title_sobreMi mt-3">INNOVA WEB...</span>
+                    <span class="texto_sobreMi mb-5" data-section="sobre-mi" data-value="texto_sobreMi">Está enfocada a ayudar a todos quienes quieran aumentar su visibilidad, fortalececiendo su presencia en línea, enfocándonos en el diseño y desarrollo de sitios web que cumplan con sus objetivos y mejoren la experiencia de sus usuarios.</span>
+                    <br>
+                </div>
             </div>
         </section>
         <!-- Formación -->
@@ -148,19 +165,7 @@
                 </div>
             </div>
         </section>
-        <!-- Sobre mí -->
-        <section class="sobreMi" id="sobre">
-            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre Nosotros</h1>
-
-            <div class="container_content-sobreMi" data-aos="fade-right">
-                <div class="container_texto-sobreMi">
-                    <br>
-                    <span class="title_sobreMi mt-3">INNOVA WEB</span>
-                    <span class="texto_sobreMi mb-5" data-section="sobre-mi" data-value="texto_sobreMi">Está enfocada a ayudar todos quienes quieran aumentar su visibilidad, fortalececiendo su presencia en línea, enfocándonos en el diseño y desarrollo de sitios web que cumplan con sus objetivos y mejoren la experiencia de sus usuarios.</span>
-                    <br>
-                </div>
-            </div>
-        </section>
+        
 
         <!-- Habilidades -->
         <section class="habilidades" id="beneficios">
@@ -245,11 +250,11 @@
     </main>
 
     <footer>
-        <div class="contianer--footer">
+        <div class="contianer--footer" id="contacto">
             <div class="container_redes-footer">
                 
-                <a href="https://codepen.io/mariasmoUN" target="_blank">
-                    <img src="./assets/images/whatsapp.png" alt="CodePen" class="icon_codepen--footer">
+                <a href="https://api.whatsapp.com/send/?phone=3218773761" target="_blank">
+                    <img src="./assets/images/whatsapp2.png" alt="CodePen" class="icon_codepen--footer">
                 </a>
                 <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
                     <img src="./assets/images/icon-instagram.png" alt="Instagram">
@@ -259,6 +264,7 @@
             <div class="container_text--footer">
                 <span>Copyright © | By Sofia Ariza</span>
             </div>
+            <br>
         </div>
     </footer>
 
