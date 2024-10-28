@@ -18,7 +18,7 @@
 .font1{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
 }
 html {
@@ -904,4 +904,33 @@ footer {
         width: 6rem;
         height: 6rem;
     }
+}
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.logo {
+    width: 150px; /* Ajusta según el tamaño de tu logo */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.text {
+    flex: 1; /* Para que el texto ocupe el espacio restante */
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #efeded;
+    margin: 0;
+}
+
+.about p {
+    font-size: 18px;
+    color: #969494;
 }
