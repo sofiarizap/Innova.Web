@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
+
+    <title>Innova Web | Desarrolladora Web Front-End</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/flaticon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/Sin_título-removebg-preview.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#servicios" data-section="menu" data-value="item2">Servicios</a>
+            <a href="#sobre" data-section="menu" data-value="item3">Sobre Nosotros</a>
+            <a href="#beneficios" data-section="menu" data-value="item4">Beneficios</a>
+            <a href="#proceso" data-section="menu" data-value="item5">Proceso</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/inicial.jpg" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Bienvenido a</p>
+                    <p class="home_text-2">INNOVA WEB</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollo de Páginas Web personalizadas</p>
+                </div>
+
+                
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1vqNvTy7TjiHEr33-bIs6hAqqS5iU5ccJ/view" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                
+                <a href="https://codepen.io/mariasmoUN" target="_blank">
+                    <img src="./assets/images/whatsapp.png" alt="whatsapp" class="icon-CodePen">
+                </a>
+                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+        <!-- Formación -->
+        <section class="formacion " id="servicios">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Servicios</h1>
+
+            <div class="cards_container--formacion">
+
+                
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/tienda-virtual.jpg" alt="Logo ">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">E-commerce o Tienda en Línea</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">Permite a los usuarios comprar productos o servicios directamente desde el sitio web.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear">
+                    <img class="logo-unal" src="./assets/images/blog.jpg" alt="Logo ">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Blog o Página de Contenidos</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">Creadas para compartir información, artículos, noticias, o contenidos educativos.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/corporativa.jpg" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Página Corporativa o de Negocio</p>
+                        <p>Diseñada para representar a una empresa o marca en línea.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/portafolio.jpg" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Portafolio</p>
+                        <p>Mostrando trabajos anteriores o proyectos destacados, este tipo de página es muy visual.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/personal.jpg" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Página Personal o Currículum en Línea</p>
+                        <p>Ideal para quienes buscan mostrar sus habilidades, experiencia, y logros profesionales.</p>
+                    </div>
+                </div>
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/eventos.jpg" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Sitio Web de Eventos</p>
+                        <p>Centrado en promocionar uno o varios eventos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobre">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre Nosotros</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <br>
+                    <span class="title_sobreMi mt-3">INNOVA WEB</span>
+                    <span class="texto_sobreMi mb-5" data-section="sobre-mi" data-value="texto_sobreMi">Está enfocada a ayudar todos quienes quieran aumentar su visibilidad, fortalececiendo su presencia en línea, enfocándonos en el diseño y desarrollo de sitios web que cumplan con sus objetivos y mejoren la experiencia de sus usuarios.</span>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="beneficios">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Beneficios de Nuestras Páginas</h1>
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <p>Diseño Personalizado</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <p>Adaptabilidad en Dispositivos</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <p>Interfaz Intuitiva y Fácil de Usar</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <p>Soporte Técnico Continuo</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <p>Accesibilidad y facilidad de pagos</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <p>Conectividad con tus redes sociales</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <p>Soporte para hacer actualizaciones</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <p>Buscamos plasmar lo que tienes en mente</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proceso">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Nuestro proceso</h1>
+
+            
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">1. Consultoría Inicial</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1"> Nos reunimos contigo para entender tu visión, tus necesidades y tus objetivos.</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">2. Diseño y Prototipado</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1"> Creamos una propuesta visual y un flujo de usuario optimizado.</p>
+                    </div>
+                </div>
+                
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">3. Desarrollo</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Programamos el sitio usando las tecnologías más modernas y aseguramos su compatibilidad en múltiples dispositivos.</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">4. Lanzamiento y Soporte</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Te acompañamos en el lanzamiento y ofrecemos soporte continuo para optimizaciones y actualizaciones.</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                
+                <a href="https://codepen.io/mariasmoUN" target="_blank">
+                    <img src="./assets/images/whatsapp.png" alt="CodePen" class="icon_codepen--footer">
+                </a>
+                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | By Sofia Ariza</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
