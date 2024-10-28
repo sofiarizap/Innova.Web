@@ -111,7 +111,6 @@ div.btn {
 }
 
 .container_parrafo-info p {
-    font-family: 'Cooper Hewitt';
     color: var(--light-grey);
     font-size: 1.4rem;
     letter-spacing: 1px;

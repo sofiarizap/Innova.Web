@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'Cooper Hewitt';
-    src: url('../fonts/CooperHewitt-Light.woff') format('woff'),
-    url('../fonts/CooperHewitt-Thin.woff') format('woff');
-}
+
 
 :root {
     --white: #FFFFFF;
@@ -17,8 +13,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Raleway", sans-serif;
 }
-
+.font1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
 html {
     font-size: 62.5%;
     scrollbar-width: thin;
@@ -409,7 +411,6 @@ span+span {
 
 .texto_sobreMi {
     color: var(--light-grey);
-    font-family: 'Cooper Hewitt';
     font-size: 1.5rem;
     letter-spacing: .1rem;
     white-space: pre-line;
@@ -487,7 +488,6 @@ span+span {
 
 .cards--habilidades p {
     color: var(--white);
-    font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
     font-size: 1.4rem;
     margin-bottom: .7rem;
@@ -539,6 +539,7 @@ span+span {
 
 .container_texto--formacion {
     margin-bottom: 1.3rem;
+    
 }
 
 img.logo-unal {
@@ -548,22 +549,20 @@ img.logo-unal {
 }
 
 .whatsappmodal{
-    z-index: 100;
+    z-index: 1000;
     margin: 10px;
 }
 
 .cards--formacion p:nth-child(1) {
     color: var(--beaver);
-    font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight:300;
     margin-bottom: .7rem;
 }
 
 .cards--formacion p:nth-child(2) {
     color: var(--light-grey);
-    font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
     font-size: 1.4rem;
 }
@@ -631,14 +630,15 @@ img.logo-unal {
     font-weight: bold;
     display: inline;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .container_textCard--proyectos p {
     color: var(--white);
-    font-family: 'Cooper Hewitt';
-    letter-spacing: .1rem;
+    letter-spacing: .15rem;
     font-size: 1.4rem;
     margin-top: 1rem;
+    
 }
 
 .container_btn--proyectos {
@@ -691,7 +691,6 @@ img.logo-unal {
 
 .container_text--contacto p {
     font-size: 1.6rem;
-    font-family: 'Cooper Hewitt';
     color: var(--white);
     margin-bottom: 3rem;
     letter-spacing: 1px;
